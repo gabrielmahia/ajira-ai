@@ -57,4 +57,4 @@ with tab4:
     if st.button("💻 Fursa za Gig Economy Kenya",key="j4"):
         with st.spinner("..."): r=ask("Fursa bora za gig economy kwa vijana Kenya 2024: Upwork, Fiverr, Uber, Bolt, Glovo, online tutoring. Jinsi ya kuanza kila moja, mapato ya makadirio, na vidokezo.")
         st.markdown(f'<div class="j-card">{r.replace(chr(10),"<br>")}</div>',unsafe_allow_html=True)
-st.markdown("---"); st.caption("💼 Ajira AI v1.0 | Fuzu: fuzu.com | BrighterMonday: brightermonday.co.ke | CC BY-NC-ND 4.0")
+st.markdown("---"); st.caption("💼 Ajira AI v1.0 | Fuzu: fuzu.com | BrighterMonday: brightermonday.co.ke | MIT")
